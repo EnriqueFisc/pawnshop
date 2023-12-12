@@ -1,0 +1,96 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Test in Prices Component > should match with snapshot 1`] = `
+<div>
+  <div
+    class="prices__window-container"
+  >
+    <div
+      class="prices__container"
+    >
+      <div
+        class="prices__calculation-container"
+      >
+        <h3>
+          Resultado
+        </h3>
+        <div
+          class="prices__calculation"
+        >
+          <div
+            class="prices__calculation-name"
+          >
+            <p>
+              Monto del prestamo: 
+              $
+            </p>
+          </div>
+        </div>
+      </div>
+      <form
+        class="prices__form-container"
+      >
+        <h3>
+          Ingresa productos para calcular
+        </h3>
+        <div
+          class="prices__form-material-data"
+        >
+          <input
+            class="prices__form-inputs"
+            name="materialId"
+            placeholder="Ingresa el codigo del material"
+            type="text"
+            value=""
+          />
+          <input
+            class="prices__form-inputs"
+            name="grams"
+            placeholder="Ingresa los gramos"
+            type="number"
+            value="0"
+          />
+        </div>
+        <button
+          class="prices__form-button"
+        >
+          Calcular Precio
+        </button>
+      </form>
+      <form
+        class="prices__form-container"
+      >
+        <h3>
+          Crear nuevo producto
+        </h3>
+        <input
+          class="prices__form-inputs"
+          name="materialId"
+          placeholder="Ingresa el codigo del material"
+          type="text"
+          value=""
+        />
+        <input
+          class="prices__form-inputs"
+          name="name"
+          placeholder="Ingresa el nombre del material"
+          type="text"
+          value=""
+        />
+        <input
+          class="prices__form-inputs"
+          name="gramsPrice"
+          placeholder="Ingresa el precio por gramo"
+          type="number"
+          value="0"
+        />
+        <button
+          class="prices__form-button"
+        >
+          Crear
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
+`;

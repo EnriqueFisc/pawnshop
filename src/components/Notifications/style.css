@@ -1,0 +1,19 @@
+.notification__container {
+    box-sizing: border-box;
+    top: 10px;
+    right: 10px;
+    position: absolute;
+    width: 350px;
+    height: 80px;
+    
+    color: white;
+    padding: 10px;
+}
+.error {
+    background-color: #F55D56;
+    border: 1px solid #F51C44;
+}
+.success {
+    background-color: #61F591;
+    border: 1px solid #05F54B;
+}

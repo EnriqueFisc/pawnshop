@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.image__logo {
+    width: 300px;
+    align-self: center;
+}
+.image__rightside {
+    object-fit: fill;
+    width: 100%;
+    height: 100%;
+}
+
+.login__container {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+.login__container-leftside {
+    grid-column: 1/2;
+    background-color: white;
+}
+
+.loginfrom__container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login__container-rightside {
+    grid-column: 2/4;
+    background-image: url('/public/nacional_monte_piedad-Background.jpg');
+    background-size: cover;
+    /* opacity: 0.5; */
+    background-color: antiquewhite;
+}
+.loginfrom__container-title {
+    width: 70%;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 5px 5px;
+}
+.login__login-button-register {
+    width: 70%;
+    margin: 5px 5px;
+    padding: 10px 10px;
+    background-color: #2162E5;
+    outline: none;
+    border: 0;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.login__login-button-register:hover {
+    background-color: #064ddc;
+}
+.login__login-button-register:active {
+    background-color: #2c67dc;
+}
+
+
+@media (max-width: 1250px) {
+    .login__container {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .login__container-leftside {
+        width: 500px;
+        height: 600px;
+        position: absolute;
+        z-index: 1;
+        border-radius: 50px;
+    }
+    
+    .loginfrom__container {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .login__container-rightside {
+        width: 100vw;
+        height: 100vh;
+        background-image: url('/public/nacional_monte_piedad-Background.jpg');
+        opacity: 0.5;
+        z-index: 0.5;
+        background-color: antiquewhite;
+    }
+}
+
+@media (max-width: 700px) {
+    .login__container {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .login__container-leftside {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        z-index: 1;
+        border-radius: 0;
+    }
+    
+    .loginfrom__container {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .login__container-rightside {
+        width: 100vw;
+        height: 100vh;
+        background-image: url('/public/nacional_monte_piedad-Background.jpg');
+        opacity: 0.5;
+        z-index: 0.5;
+        background-color: antiquewhite;
+    }
+    .loginfrom__container-title {
+        width: 90%;
+    }
+    .login__login-button-register {
+        width: 90%;
+    }
+}

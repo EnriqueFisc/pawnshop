@@ -1,0 +1,53 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Test in RegisterFormContaine Component > should match with snapshot 1`] = `
+<div>
+  <form
+    class="Login__form-container"
+  >
+    <input
+      autocomplete="off"
+      class="login__login-input"
+      name="name"
+      placeholder="Ingrese sus nombres"
+      type="text"
+      value=""
+    />
+    <input
+      autocomplete="off"
+      class="login__login-input"
+      name="lastname"
+      placeholder="Ingrese sus apellidos"
+      type="text"
+      value=""
+    />
+    <input
+      autocomplete="off"
+      class="login__login-input"
+      name="email"
+      placeholder="Ingrese su correo electrónico"
+      type="email"
+      value=""
+    />
+    <input
+      class="login__login-input"
+      name="password"
+      placeholder="Ingrese su contraseña"
+      type="password"
+      value=""
+    />
+    <input
+      class="login__login-input"
+      name="passwordConfirm"
+      placeholder="Confirme su contraseña"
+      type="password"
+      value=""
+    />
+    <button
+      class="login__login-button"
+    >
+      Registrarme
+    </button>
+  </form>
+</div>
+`;

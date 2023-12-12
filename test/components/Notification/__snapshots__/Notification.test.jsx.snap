@@ -1,0 +1,16 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Test in Notification Component > should match with snapshot 1`] = `
+<div>
+  <div
+    class="notification__container error"
+  >
+    <p>
+      Error:
+    </p>
+    <span>
+      Testing
+    </span>
+  </div>
+</div>
+`;
