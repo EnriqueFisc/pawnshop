@@ -36,7 +36,7 @@ export const RegisterFormContaine = () => {
         return;
       }
     }
-    fetch("http://localhost:4000/users", {
+    fetch("http://167.71.17.236:4000/users", {
       method: "POST",
       body: JSON.stringify(formValues),
       headers: {

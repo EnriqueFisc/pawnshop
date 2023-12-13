@@ -19,7 +19,7 @@ export const LoginFormContaine = () => {
     e.preventDefault();
     console.log("submit", formValues);
 
-    fetch("http://localhost:4000/users/auth", {
+    fetch("http://167.71.17.236:4000/users/auth", {
       method: "POST",
       body: JSON.stringify(formValues),
       headers: {

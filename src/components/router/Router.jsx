@@ -8,7 +8,7 @@ export const ContainerRoutes = () => {
   useEffect(() => {
     const token = localStorage.getItem("token");
     if (token) {
-      fetch("http://localhost:5000/token/validate", {
+      fetch("http://167.71.17.236:5000/token/validate", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

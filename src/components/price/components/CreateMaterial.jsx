@@ -17,7 +17,7 @@ export const CreateMaterial = () => {
   const handleOnSubmit = (e) => {
     e.preventDefault();
     const token = localStorage.getItem("token");
-    fetch("http://localhost:3000/materials/create", {
+    fetch("http://167.71.17.236:3000/materials/create", {
       method: "POST",
       body: JSON.stringify(formValues),
       headers: {

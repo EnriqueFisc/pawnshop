@@ -20,7 +20,7 @@ export const Prices = () => {
     e.preventDefault();
     const token = localStorage.getItem("token");
 
-    fetch("http://localhost:3000/materials/price", {
+    fetch("http://167.71.17.236:3000/materials/price", {
       method: "POST",
       body: JSON.stringify(formValues),
       headers: {
